@@ -1,8 +1,8 @@
-This full stack project is a <strong>Travel Blog Application</strong>that allow users to post blogs with image links, like/comment on those posts.<br>
+This full stack project is a <strong>Travel Blog Application</strong> that allow users to post blogs with image links, like and comment on those posts.<br>
 
 <a href="https://react-travel-blog2021.herokuapp.com" target="_blank"><strong>Live Demo</strong></a><br>
 
-<strong>Built with:</strong>
+## Built with:
 - **React** for creating a SPA
 - **Redux** for global state
 - **Express** for making back-end development
@@ -14,17 +14,20 @@ This full stack project is a <strong>Travel Blog Application</strong>that allow 
 - **Material-Ui & React-Jss** for styling
 
 
-<strong>Features:</strong><hr>
+## Features:
+
 - Create and read entries
 - Create users
 - Hashed passwords
 - Token authentication
 - Protected routes
-<hr>
 
-### Local Development
 
-git clone https://github.com/zxmvd/react-travel-blog.git<br>
+## Local Development
+
+```bash
+git clone https://github.com/zxmvd/react-travel-blog.git
+```
 
 This app consists two npm projects, there are two places to run `npm` commands:
 
@@ -59,7 +62,7 @@ npm install
 npm start
 ```
 
-#### Setting environment variables
+### Setting environment variables
 
 Fill dotenv in `server/` directory with database information, create a jwtsecretkey and then save the file as ".env".
 
@@ -74,7 +77,7 @@ TEST_MONGODB_URI='your_test_database_uri'
 SECRET ='any value'
 ```
 
-#### Creating new production build of the frontend
+### Creating new production build of the frontend
 ```bash
 cd server
 
