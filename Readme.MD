@@ -29,7 +29,7 @@ This full stack project is a <strong>Travel Blog Application</strong> that allow
 git clone https://github.com/zxmvd/react-travel-blog.git
 ```
 
-This app consists two npm projects, there are two places to run `npm` commands:
+This app consists of two npm projects, there are two places to run `npm` commands:
 
 1. **Node API server** in `server/` directory
 1. **React UI** in `client/` directory
