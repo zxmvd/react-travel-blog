@@ -19,7 +19,10 @@ const BlogListPage=({ blogFormRef, blogs }) => {
 
   const classes = useStyles()
   const dispatch = useDispatch()
-  // window.scrollTo(0,0)
+  
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
 
   useEffect(() => {
     const clearAddedBlog=() => {

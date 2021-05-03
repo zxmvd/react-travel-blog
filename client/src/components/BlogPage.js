@@ -16,16 +16,9 @@ const useStyles = makeStyles(styles)
 const BlogPage=({ blogFormRef, blog, user }) => {
   const classes = useStyles()
 
-  // let currentPageY = localStorage.getItem('page_y')
-  // if (currentPageY ){
-  //   window.scrollTo( 0, currentPageY )
-  //   // setTimeout(() => {
-  //   //   localStorage.setItem('page_y',0)
-  //   // },5000)
-  // } 
-  // else {
-  //   window.scrollTo(0,0)
-  // }
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
 
 
   return(
