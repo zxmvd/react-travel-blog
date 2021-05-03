@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.img_txt_box {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.img_txt {
+  font-size: 6px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.img_txt:before, .img_txt:after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0px;
+  height: 2px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.7s;
+  opacity: 0;
+  background-color:white ;
+}
+
+
+.img_txt_right:before, .img_txt_right:after {
+	right: 5%;
+}
+
+.img_txt_left:before, .img_txt_left:after {
+
+	left: 5%;
+}
+
+
+.img_txt_box:hover {
+  cursor: pointer;
+}
+.img_txt_box:hover .img_txt:before, .img_txt_box:hover .img_txt:after {
+  width: 90%;
+  opacity: 0.6;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:rgba(50, 168, 82, 0.5) !important;
+  border-width: 2px;
+}
+
+.MuiCardHeader-title {
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  color:#32a852 
+}
+
+.slick-dots {
+  z-index: 0 !important;
+}
+
+.slick-list{
+  z-index: 0 !important;
+}
