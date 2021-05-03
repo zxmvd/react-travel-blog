@@ -1,0 +1,7 @@
+MONGODB_URI='your_database_uri'
+
+PORT = 3001
+
+TEST_MONGODB_URI='your_test_database_uri'
+
+SECRET ='any value'
